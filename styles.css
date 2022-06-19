@@ -1,0 +1,36 @@
+body {
+  background-color: #ffc8dd;
+  color: #216fb8;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+h1 {
+  font-size: 50px;
+  text-shadow: 1px 1px 4px #bde0fe;
+}
+
+input {
+  width: 200px;
+  padding: 10px;
+  box-sizing: content-box;
+  border: 2px solid #cdb4db;
+  background-color: #bde0fe;
+  text-align: center;
+}
+
+button {
+  background-color: #a2d2ff;
+  font-weight: bold;
+  border: 2px solid #cdb4db;
+  float: right;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 50px;
+  margin-right: 50px;
+  margin-left: 30px;
+  text-align: center;
+}

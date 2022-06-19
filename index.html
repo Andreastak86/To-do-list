@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>To-do-list</title>
+  </head>
+  <body>
+    <div>
+      <h1>My bucket list</h1>
+      <label for="myInput"
+        >Add to my bucket list<br /><br />
+        To <em>delete</em>, you have to dbl-click!
+      </label>
+      <br />
+      <br />
+      <div class="inpt">
+        <input
+          type="text"
+          id="myInput"
+          placeholder="Add thing you just have to do..."
+        />
+      </div>
+      <div class="btn">
+        <button id="deleteBtn">Delete all</button>
+        <button id="subBtn">Add to my list</button>
+      </div>
+
+      <div class="list">
+        <ol id="ulLi"></ol>
+      </div>
+    </div>
+
+    <script src="to-do.js"></script>
+  </body>
+</html>
